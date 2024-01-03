@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.caja_principal {
+  background-color: #616164;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.caja_imgs_flecha_localizacion {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.img_flecla {
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  padding: 8px;
+}
+
+.img_localizacion {
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  padding: 8px;
+}
+
+.caja_img_mas {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.img_mas {
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  padding: 10px;
+}
+
+.boton_confirmar_taxi {
+  width: 90%;
+  background-color: #fe5722;
+  display: flex;
+  border: none;
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.tex_confirmar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 18px;
+}
+
+.caja_tex_confirmar_img_visto {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px ;
+}
+
+.img_visto {
+  position: absolute;
+  right: 10px;
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  width: 28px;
+
+}

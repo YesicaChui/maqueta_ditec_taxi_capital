@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.caja_principal {
+  background-color: #616164;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.caja_ofezca_tarifa {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: solid white 1px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.caja_text_tarifa {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.caja_input {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.text_soles {
+  font-size: 20px;
+
+}
+
+.input {
+  all: unset;
+  width: 50%;
+}
+
+.linia {
+  border-bottom: solid #e3e3e3 1.5px;
+  width: 70%;
+  margin: auto;
+
+}
+
+.boton_confirmar_taxi {
+  width: 90%;
+  background-color: #fe5722;
+  display: flex;
+  border: none;
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.boton_efectivo {
+  background-color: #ffcc81;
+  margin-top: 5px;
+}
+
+.text_confirmar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 18px;
+}
+
+.text_efectivo {
+  color: black;
+}
+
+.caja_text_confirmar_img_visto {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.img_visto {
+  position: absolute;
+  right: 10px;
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  width: 28px;
+}

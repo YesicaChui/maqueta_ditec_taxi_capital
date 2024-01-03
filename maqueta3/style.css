@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.caja_ingrese_direccion {
+  background-color: #f8f8fa;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.caja_tex_nombres {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: none;
+  color: black;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-left: 5px;
+  
+  
+  
+}
+
+.texto_ingrese_direccion {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.caja_img_nombre_img {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 5px;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_circulo_negro{
+  width: 30px;
+}
+.caja_nombre_img_x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d66131;
+  width: 100%;
+  line-height: 1.8;
+  font-size: 16px;
+
+}
+
+.caja_img_map_tex{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  padding-top: 15px;
+  color: #c36931;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.tex_nombre_direcion{
+  padding-top: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 12px;
+}
+.tex_ciudad{
+  padding-left: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:14;
+}
+
+
+
