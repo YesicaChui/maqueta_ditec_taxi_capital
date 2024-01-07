@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.caja_principal {
+  background-color: #616164;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.img_x {
+  background-color: white;
+  border-radius: 40px;
+  width: 13%;
+  padding: 8px;
+  text-align: center;
+}
+.caja_cards{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+
+.card{
+  border-radius: 15px;
+  border: solid white 1px;
+  border-bottom: none;
+  background-color: white;
+  
+}
+.img_text_nombre{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.card_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+}
+
+.img_user{
+  border: solid #616164 1.5px;
+  border-radius: 30px;
+  width: 50px;
+  padding: 5px;
+  background-color: #cccccc;
+}
+.text_nombre{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text_minitos{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.text_pen_aceptar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px 8px 10px;
+}
+.text_pen25{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+.boton_aceptar{
+  background-color: #fe5722;
+  border: none;
+  border-radius: 15px;
+  padding:5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 32%;
+  font-size: 18px;
+}
+
+.ofreciendo_tarifa{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: solid white 1px;
+  border-bottom: none;
+  background-color: white;
+}
+
+
+.ofreciendo_tarifa{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: solid white 1px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.text_ofreciendo_tarifa{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.caja_botones{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.caja_signo{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 5px;
+  width: 28%;
+
+}
+.img_menos{
+  width: 20px;
+}
+
+.text_pen{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.boton_aumentar {
+  width: 90%;
+  background-color: #fe5722;
+  display: flex;
+  border: none;
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+.text_aumentar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 18px;
+}
+
+.caja_texto_aumentar_img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.img_mas {
+  position: absolute;
+  right: 10px;
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  width: 28px;
+}
+
+.munero{
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja_lineas{
+  display: flex;
+}
+.linia_naranja{
+  border: solid #e45f3c 4px;
+  width: 68%;
+  border-bottom-left-radius: 10px; 
+}
+
+.linia_blomo{
+  border: solid #939393 4px;
+  width: 32%;
+  border-bottom-right-radius: 10px; 
+}
+
+.linea_naranja_dos{
+  border: solid #e45f3c 4px;
+  width: 25%;
+  border-bottom-left-radius: 10px; 
+}
+
+.linea_blomo_dos{
+  border: solid #939393 4px;
+  width: 75%;
+  border-bottom-right-radius: 10px; 
+}
+
+.linea_naranja_tres{
+  border: solid #e45f3c 4px;
+  width: 5%;
+  border-bottom-left-radius: 10px; 
+}
+.linea_blomo_tres{
+  border: solid #939393 4px;
+  width: 95%;
+  border-bottom-right-radius: 10px; 
+}
