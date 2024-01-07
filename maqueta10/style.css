@@ -5,7 +5,7 @@
 }
 .caja_principal {
   background-color: #616164;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,8 +21,9 @@
 
 .card_list{
   background-color: #f5f5f5;
-  padding: 15px;
+  padding: 10px;
   margin-top: 20px;
+  
 }
 .caja_pen_boton{
   display: flex;
@@ -31,8 +32,8 @@
 }
 .text_pen{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: bolder;
 }
 .boton_efectivo{
   border-radius: 20px;
@@ -44,6 +45,127 @@
 .card_img_text{
   display: flex;
   align-items: center;
+  gap:10px;
+  margin-top: 15px;
+}
+.img_a{
+  border-radius: 20px;
+  background-color:#454545 ;
+  padding: 2px;
+  width: 17px;
+  align-items: center;
 }
 
+.img_b{
+  border-radius: 20px;
+  background-color:#e35f33 ;
+  padding: 2px;
+  width: 17px;
+  align-items: center;
+}
+.caja_img_texts{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
 
+.caja_texts{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.texts{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.boton_aumentar {
+  width: 90%;
+  background-color: #fe5722;
+  display: flex;
+  border: none;
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+.text_aumentar{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 18px;
+}
+
+.caja_texto_aumentar_img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.img_mas {
+  position: absolute;
+  right: 10px;
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  width: 28px;
+  padding: 2px;
+}
+
+.text_yaris{
+font-size:13px ;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.img_nombre{
+display: flex;
+gap: 10px;
+margin-top: 10px;
+align-items: center;
+
+}
+.img_user{
+  border: solid #616164 2px;
+  border-radius: 30px;
+  width: 50px;
+  padding: 5px;
+  background-color: #cccccc;
+}
+.text_nombre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.imgs_comunicacion{
+  border-radius: 30px;
+  background-color:#e1846f ;
+  padding: 8px;
+  
+}
+
+.caja_imgs_user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+.img_whatsapp{
+  width: 40px;
+  padding: 2px;
+}
+.caja_imgs{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
