@@ -11,7 +11,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+.caja_ofreciendo_tarifa{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
 .caja_datos_adicionales {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
