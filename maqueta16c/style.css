@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .caja_contenidos{
   background-color: #faf8f8;
   height: 100vh;
@@ -24,7 +23,6 @@
   border-bottom: none;
   width: 100%;
 }
-
 .caja_img_mas {
   display: flex;
   flex-direction: row;
@@ -32,7 +30,6 @@
   padding-right: 10px;
   padding-bottom: 10px;
 }
-
 .img_mas {
   border-radius: 40px;
   border: solid white 1px;
@@ -40,19 +37,17 @@
   padding: 10px;
 }
 
-.caja_direcciones {
+.caja_direcciones{
   background-color: #ffffff;
   padding: 10px;
   padding-left: 18px;
 }
-
 .img_text_direccion {
   display: flex;
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 12px;
 }
-
 .img_a {
   border-radius: 20px;
   background-color: #454545;
@@ -80,19 +75,10 @@
   margin-top: 15px;
   align-items: center;
 }
-
-.caja_pen_km {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
-  align-items: center;
-}
-
 .caja_pen_boton {
   display: flex;
   gap: 10px;
 }
-
 .text_pen {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
@@ -106,4 +92,49 @@
   width: 120px;
   height: 25px;
   font-size: 16px;
+}
+.boton_aceptar_pen25{
+  width: 90%;  
+  background-color: #fe5722;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.text_ofrecer{
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color:#b3b1b1;
+}
+.caja_botones{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.boton{
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color:#fe5722 ;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px;
+
+}
+.boton_cerrar{
+  background-color: #424242;
+  margin-bottom: 0px;
 }
