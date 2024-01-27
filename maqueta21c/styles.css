@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.caja_principal {
+  background-color: #616164;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.caja_datos_adicionales {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: solid white 1px;
+  border-bottom: none;
+  background-color: white;
+}
+
+.caja_img_datos_img {
+  display: flex;
+  justify-content: center;
+  padding: 15px 20px 0px 15px;
+
+  text-align: center;
+}
+
+
+.text_datos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 8px;
+}
+
+.caja_imgs_estrellas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.img_estrella {
+  margin-top: 20px;
+  width: 40px;
+}
+
+
+
+
+.boton_calificar_taxi {
+  width: 90%;
+  background-color: #fe5722;
+  display: flex;
+  border: none;
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+
+.text_calificar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 18px;
+}
+
+.caja_text_calificar_img_visto {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.img_visto {
+  position: absolute;
+  right: 10px;
+  border-radius: 40px;
+  border: solid white 1px;
+  background-color: white;
+  width: 28px;
+}
+
+.caja_texto {
+  margin: 20px;
+  border-radius: 15px;
+  align-items: center;
+  border: solid #e6bcb6 2px;
+}
+
+.texto_aria {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  outline: none;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+
+}
